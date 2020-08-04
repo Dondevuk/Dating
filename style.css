@@ -1,0 +1,246 @@
+
+body {
+width: 100%;
+height: 100%
+margin: 0;
+padding: 0;
+
+}
+
+section {
+float: left;
+margin: 8% 1.5%;
+width: 63%;
+
+}
+aside {
+float: right;
+margin: 0% 0%;
+width: 7.6%;
+
+}
+
+
+/*topnav*/
+
+.topnav  {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+height: 60px;
+width: 100%;
+background: #D7A13D;
+}
+.topnav li a {
+width: 100%;
+padding-right: 18px;
+padding-left: 18px;
+font-family: Helvetica;
+font-size: 13px;
+font-weight: 100;
+line-height: 21px;
+text-align: right;
+text-decoration: none;
+color: white;
+align-items: center;
+border-right: 1px solid #fff;
+}
+
+.topnav input {
+margin-right: 100px;
+background: #D7A13D;
+width: 175px;
+height: 36px;
+border-radius: 30px;
+border: solid 1px #ffffff;
+}
+
+.logo1 {
+height: 110px;
+margin-top: 3%;
+margin-right: 37%;
+box-shadow: 0px 0px 20px rgba(0,0,0,0.2)
+
+}
+
+.searchbar {
+  font-family:Arial, FontAwesome;
+  background-color: #D7A13D;
+}
+
+/*sign up button*/
+
+#su-1 {
+margin-right: 60px;
+margin-left: 30px;
+width: 173px;
+height: 50px;
+border-radius: 30px;
+background-color: #D7A13D;
+border-color: transparent;
+color: white;
+opacity: 0.8;
+}
+
+
+/*main nav menu*/
+.mainnav {
+margin-top: 10px;
+display: flex;
+list-style: none;
+justify-content: flex-end;
+align-items: center;
+height: 25px;
+width: 100%;
+padding: 0px;
+
+}
+
+.mainnav  li a {
+padding-right: 15px;
+padding-left: 15px;
+font-family: Helvetica, times-new-roman;
+font-weight: 50;
+line-height: 21px;
+border-right: 1px solid #3c3c3b;
+text-decoration: none;
+color: white;
+font-size: 13px;
+text-align: right;
+border-right: none;
+}
+
+
+.dropbtn {
+background-color: white;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+ padding-right: 15px;
+padding-left: 15px;
+font-family: Helvetica, times-new-roman;
+font-weight: 50;
+line-height: 0px;
+border-right: 0.5px solid #3c3c3b;
+text-decoration: none;
+color: #D7A13D;
+font-size: 14px;
+text-align: center;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+right: 0;
+background-color: transparent;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+z-index: 1;
+text-align: center;
+
+}
+
+.dropdown-content a{
+width: 150px;
+background-color: #D7A13D;
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+margin-right: 30PX;
+}
+
+.dropdown-content a:hover {background-color: green;
+color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: white;}
+
+.arrow-up {
+margin-left: 35%;
+display: flex;
+border-color: #D7A13D transparent;
+border-style: solid;
+border-width: 0px 20px 20px 20px;
+height: 0px;
+width: 0px;
+
+}
+
+
+/*main banner area*/
+
+
+.mainban {
+background-color: #D7A13D;
+
+background-image: url("assets/img/milk.jpg");
+background-repeat: no-repeat;
+background-size: contain
+;
+background-position: right;
+
+
+}
+
+#banner-txt {
+
+padding-top: 0px;
+margin-left: 9%;
+color: white;
+font-size: 42px;
+font-family: Roboto;
+line-height: 52px;
+
+}
+
+#footerimg {
+width: 100%;
+height: 200px;
+}
+
+
+
+/*Find out more Button*/
+.findoutmore {
+  width: 161px;
+height: 50px;
+border-radius: 30px;
+background: #D7A13D;
+border-color: black;
+color: white;
+}
+
+
+/*Chhat With Us Button*/
+.chatwithus {
+margin-top: 300px;
+margin-right: 0px;
+width: 161px;
+height: 60px;
+transform: rotate(-90.00001deg);
+color: #D7A13D;
+font-size: 15px;
+font-weight: 400;
+line-height: 76px;
+text-align: center;
+text-transform: uppercase;
+background: #D7A13D;
+opacity: 0.7;
+ border-color: black;
+
+
+}
+
+
+
