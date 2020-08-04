@@ -184,7 +184,7 @@ width: 0px;
 .mainban {
 background-color: #D7A13D;
 
-background-image: url("/milk.jpg");
+background-image: url("milk.jpg");
 background-repeat: no-repeat;
 background-size: contain
 ;
